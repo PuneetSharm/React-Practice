@@ -10,6 +10,7 @@ function App() {
   // let counter = 5;
 
   const addValue = () => {
+    if(counter < 20)
     setCounter(counter + 1);
   }
 
